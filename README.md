@@ -23,28 +23,34 @@ Ensure the following are installed on your system:
 
 ### Step-by-Step Guide
 
-**Important**:
-   Don't forget to set the location of your Termux-NDK toolchain in this [line](https://github.com/Zaenalos/Zen/blob/main/CMakeLists.txt#L3).
+1. **Clone the repo**:
+   Clone the repository:
+   ```bash
+   git clone https://github.com/Zaenalos/Zen
+   ```
+   
+2. **Important**:
+   After cloning the repo, don't forget to set the location of your Termux-NDK toolchain in this [line](https://github.com/Zaenalos/Zen/blob/main/CMakeLists.txt#L3).
 
-1. **Set up the Build Directory**:
+3. **Set up the Build Directory**:
    Create the build directory where the project files will be compiled:
    ```bash
    cd out/build
    ```
 
-2. **Generate the Build Files**:
+4. **Generate the Build Files**:
    Inside the `out/build` directory, generate the build files by running:
    ```bash
    cmake ../..
    ```
 
-3. **Build the Project**:
+5. **Build the Project**:
    Use the following command to build the project with multiple threads.
    ```bash
    cmake --build . --parallel
    ```
 
-4. **Locate the Output**:
+6. **Locate the Output**:
    After a successful build, the shared library `libZen.so` will be generated in [this](https://github.com/Zaenalos/Zen/blob/main/CMakeLists.txt#L32) directory (Feel free to modify the output location.).
 
 ---
@@ -53,14 +59,11 @@ Ensure the following are installed on your system:
 
 Zen wouldn't be possible without the help of these amazing open-source projects:
 
-- **ShadowHook**: A fast and dynamic Android inline hook library, used in Zen for hooking system functions.  
-  [GitHub Repository](https://github.com/bytedance/android-inline-hook)
+- **[ShadowHook](https://github.com/bytedance/android-inline-hook)**: A fast and dynamic Android inline hook library, used in Zen for hooking system functions.  
   
-- **ImGui**: A powerful and flexible graphical user interface library, used for creating Zen's mod menu.  
-  [GitHub Repository](https://github.com/ocornut/imgui)
+- **[ImGui](https://github.com/ocornut/imgui)**: A powerful and flexible graphical user interface library, used for creating Zen's mod menu.  
 
-- **Termux-NDK**: A toolchain for developing Android native code in Termux, used for building Zen on Android devices.  
-  [GitHub Repository](https://github.com/lzhiyong/termux-ndk)
+- **[Termux-NDK](https://github.com/lzhiyong/termux-ndk)**: A toolchain for developing Android native code in Termux, used for building Zen on Android devices.  
 
 ---
 
