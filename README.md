@@ -1,5 +1,7 @@
 [![GitHub release](https://img.shields.io/github/v/release/username/repository)](https://github.com/Zaenalos/Zen/releases)
 
+---
+
 # Zen
 **Zen**, A mod menu for Growtopia (Android)
 
