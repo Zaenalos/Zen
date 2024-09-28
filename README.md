@@ -57,6 +57,20 @@ Ensure the following are installed on your system:
 6. **Locate the Output**:
    After a successful build, the shared library `libZen.so` will be generated in [this](https://github.com/Zaenalos/Zen/blob/main/CMakeLists.txt#L32) directory (Feel free to modify the output location.).
 
+7. **Injecting to Growtopia**:
+   Injecting in Growtopia is super easy:
+   1. Download and install Growtopia then decompile the app.
+   2. After decompiling the main app, decompile the **base.apk**.
+   3. Decompile the **classes3.dex**, go to **com/rtsoft.growtopia/Main**.
+   4. Inject this dalvik code:
+      ```dalvik
+      const-string v0, "Zen"
+	  invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+      ```
+   5. Recompile the **base.apk**
+   6. Decompile the **split_config.arm64_v8a.apk**, goto **lib/arm64-v8a**.
+   7. Add the **libZen.so**, then recompile the **split_config.arm64_v8a.apk**.
+   8. Install the modded apk and have fun!
 ---
 
 ## 💻 Credits
