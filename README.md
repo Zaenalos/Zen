@@ -62,7 +62,8 @@ Ensure the following are installed on your system:
    1. Download and install Growtopia then decompile the app.
    2. After decompiling the main app, decompile the **base.apk**.
    3. Decompile the **classes3.dex**, go to **com/rtsoft.growtopia/Main**.
-   4. Inject this dalvik code:
+   4. Inject this dalvik code in this location:
+      ![Injecting dalvik code](images/Zen3.jpg)
       ```dalvik
       const-string v0, "Zen"
 	  invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
