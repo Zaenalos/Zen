@@ -1,4 +1,4 @@
-[![GitHub release](https://img.shields.io/github/v/release/username/repository)](https://github.com/Zaenalos/Zen/releases)
+[![GitHub release](https://github.com/Zaenalos/Zen/releases/tag/Binary)
 
 ---
 
