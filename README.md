@@ -79,7 +79,7 @@ Ensure the following are installed on your system:
 
 **Injecting**:
 
-<video src="https://github.com/Zaenalos/Zen/blob/main/Tutorial.mp4"></video>
+https://github.com/Zaenalos/Zen/blob/main/Tutorial.mp4
 
 ---
 
