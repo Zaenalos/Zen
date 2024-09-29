@@ -77,7 +77,9 @@ Ensure the following are installed on your system:
 
 ## ▶️ Video Tutorial
 
-![Injecting tutorial](Tutorial.mp4)
+<video src="https://github.com/Zaenalos/Zen/blob/main/Tutorial.mp4?raw=true" controls="controls" style="max-width: 100%;">
+    Your browser does not support the video tag.
+</video>
 
 ---
 
