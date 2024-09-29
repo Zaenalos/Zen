@@ -72,6 +72,13 @@ Ensure the following are installed on your system:
    6. Decompile the **split_config.arm64_v8a.apk**, goto **lib/arm64-v8a**.
    7. Add the **libZen.so**, then recompile the **split_config.arm64_v8a.apk**.
    8. Install the modded apk and have fun!
+   
+---
+
+## ▶️ Video Tutorial
+
+![Injecting tutorial](Tutorial.mp4)
+
 ---
 
 ## 💻 Credits
