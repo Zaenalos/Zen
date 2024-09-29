@@ -77,7 +77,7 @@ Ensure the following are installed on your system:
 
 ## ▶️ Video Tutorial
 
-https://github.com/Zaenalos/Zen/blob/main/Tutorial.mp4
+![Tutorial](https://github.com/Zaenalos/Zen/blob/main/Tutorial.mp4)
 
 ---
 
